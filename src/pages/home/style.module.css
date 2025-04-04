@@ -1,0 +1,46 @@
+
+.ourWork{
+    text-align: left;
+    font-size: 70px;
+    line-height: 89px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    font-family: "Montserrat", sans-serif;
+    color: var(--color7);
+}
+
+.cardsContainer{
+    display: grid;
+    grid-template-columns: 36% 60%;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.secondCardsContainer{
+    display: grid;
+    grid-template-columns: 60% 36%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .ourWork{
+        font-size: 32px;
+        line-height: 48px;
+        margin: 40px 0px
+    }
+}
+@media (max-width: 768px) {
+
+    .cardsContainer{
+        grid-template-columns: 100%;
+        gap: 20px
+    }
+    .secondCardsContainer{
+        gap: 20px;
+        grid-template-columns: 100%
+    }
+    
+}

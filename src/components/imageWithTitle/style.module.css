@@ -1,0 +1,39 @@
+.cardContaier{
+    display: grid;
+    grid-template-rows: max-content auto;
+}
+.imageContainer{
+    background-color: var(--color3);
+    padding: 15px;
+    border-radius: 16px;
+}
+.imageContainer img{
+    display: block;
+    width: 100%;
+}
+.title{
+    background-color: var(--color3);
+    padding: 8px;
+    border-radius: 0px 0px 30px 30px;
+    width: 324px;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    min-height: 80px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    color: var(--color7)
+}
+
+@media (max-width: 768px){
+    .title{
+        width: 300px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
